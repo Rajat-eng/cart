@@ -140,7 +140,7 @@ addProduct=()=>{
     return (
       <div className="App">
         <Navbar count={this.getCartCount()}/>
-        <button style={{fontSize:20,padding:20}} onClick={this.addProduct}>Add a Product</button>
+        {/* <button style={{fontSize:20,padding:20}} onClick={this.addProduct}>Add a Product</button> */}
         <Cart 
         products={products}
         onIncreaseQuantity={this.handleIncreaseQuantity}
